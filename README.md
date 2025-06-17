@@ -9,7 +9,6 @@ This project provides a set of online tools via RESTful APIs.
 *   Maven
 *   Spring Actuator
 *   SpringDoc OpenAPI (Swagger)
-*   AWS S3 SDK
 
 ## API Endpoints
 
@@ -49,11 +48,6 @@ This project provides a set of online tools via RESTful APIs.
 *   The hashing, encoding/decoding, and formatting tools use standard and efficient libraries.
 *   The QR code generation is optimized to minimize processing time.
 
-## Third-Party Integration
-
-*   The application integrates with AWS S3 to allow users to upload files for processing and receive the results or a download link.
-*   AWS S3 credentials are configured using Spring Boot's configuration mechanisms (`@ConfigurationProperties` or `@Value` in `application.yml`).
-
 ## Running the Application
 
 ### Locally with Maven
@@ -67,19 +61,6 @@ This project provides a set of online tools via RESTful APIs.
 1.  Clone the repository.
 2.  Navigate to the project directory.
 3.  Run `docker-compose up --build`.
-
-## Configuration
-
-The application can be configured using environment variables or the `application.yml` file.
-
-### AWS S3 Configuration
-
-The following environment variables are used to configure the AWS S3 integration:
-
-*   `AWS_S3_REGION`
-*   `AWS_S3_BUCKET_NAME`
-*   `AWS_S3_ACCESS_KEY`
-*   `AWS_S3_SECRET_KEY`
 
 ## Scaling on Kubernetes
 
