@@ -1,6 +1,6 @@
 # Active Context
 
-**Current work focus:** Initializing the project, setting up Git, and creating the memory bank.
+**Current work focus:** Adding Excel to XML, JSON, CSV converter.
 
 **Recent changes:**
 
@@ -10,7 +10,12 @@
 
 **Next steps:**
 
-*   Implement unit tests for the existing API controllers.
+*   Add Apache POI dependency to `pom.xml`.
+*   Create `ExcelConverterController`.
+*   Create `ExcelConverterService`.
+*   Create data classes: `ExcelData`, `XmlData`, `JsonData`, `CsvData`.
+*   Implement unit tests for `ExcelConverterService`.
+*   Update `README.md`.
 
 **Active decisions and considerations:**
 

@@ -9,6 +9,7 @@
 
 **What's left to build:**
 
+*   Implement Excel to XML, JSON, CSV converter.
 *   Implement unit tests for the remaining API controllers.
 
 **Current status:**
