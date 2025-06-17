@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.example.onlinetools.controller.HashControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.863 s <<< FAILURE! -- in com.example.onlinetools.controller.HashControllerTest
+com.example.onlinetools.controller.HashControllerTest.testKeccak256Hash -- Time elapsed: 0.754 s <<< FAILURE!
+java.lang.AssertionError: Response content expected:<3c6e0b8a9c1528f5b00e573d07e29c52691b49b449dd1c16d502019aa649b6f2> but was:<36f028580bb02cc8272a9a020f4200e346e276ae664e45ee80745574e2f5ab80>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers.lambda$string$4(ContentResultMatchers.java:148)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.onlinetools.controller.HashControllerTest.testKeccak256Hash(HashControllerTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
