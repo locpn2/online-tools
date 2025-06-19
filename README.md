@@ -10,6 +10,16 @@ This project provides a set of online tools via RESTful APIs.
 *   Spring Actuator
 *   SpringDoc OpenAPI (Swagger)
 
+## Unit Tests Status
+
+The following tools have unit tests implemented:
+
+*   Hashing Tools
+*   Encoding/Decoding Tools
+*   Formatting Tools
+*   Generation Tools (UUID and QR Code)
+*   Hash Tools
+
 ## API Endpoints
 
 ### Hashing Tools

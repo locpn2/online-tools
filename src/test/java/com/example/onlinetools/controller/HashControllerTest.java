@@ -47,4 +47,14 @@ public class HashControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(MockMvcResultMatchers.content().string("36f028580bb02cc8272a9a020f4200e346e276ae664e45ee80745574e2f5ab80"));
     }
+
+    @Test
+    public void testMd5Hash() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders
+                .post("/api/hash/md5")
+                .contentType(MediaType.TEXT_PLAIN)
+                .content("test"))
+                .andExpect(status().isOk())
+                .andExpect(MockMvcResultMatchers.content().string("098f6bcd4621d373cade4e832627b4f6"));
+    }
 }
