@@ -8,8 +8,11 @@
 *   Unit tests implemented for HashController.
 *   Unit tests implemented for ExcelConverterService.
 *   Implement Excel to XML, JSON, CSV converter.
+*   Unit tests implemented for EncodeController, ExcelConverterController, and FormatController.
 
 **What's left to build:**
+
+*   Implement unit tests for the remaining API controllers.
 
 
 **Current status:**

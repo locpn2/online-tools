@@ -47,7 +47,7 @@
 
 **Format**: Use the **Conventional Commits** format:
 ```
-<yyyymmdd>@<username>: <type>(scope): <short description>
+<type>(scope): <short description>
 
 [body(s)]
 
@@ -67,7 +67,7 @@
 **Example**
 
 ```
-250409@locpn: feat(api): add customer search endpoint
+feat(api): add customer search endpoint
 
 This commit introduces a new endpoint `/api/customers/search` that allows 
 filtering by name and email. Pagination is also supported.

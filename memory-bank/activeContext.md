@@ -7,10 +7,13 @@
 *   Added the `spring-boot-maven-plugin` to the `pom.xml` file.
 *   Initialized Git repository.
 *   Created the initial memory bank files.
+*   Implemented Excel to XML, JSON, CSV converter.
+*   Added unit tests for EncodeController, ExcelConverterController, and FormatController.
 
 **Next steps:**
 
 *   Update `README.md`.
+*   Implement unit tests for the remaining API controllers.
 
 **Active decisions and considerations:**
 

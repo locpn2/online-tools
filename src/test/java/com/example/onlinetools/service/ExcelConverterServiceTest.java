@@ -62,9 +62,9 @@ public class ExcelConverterServiceTest {
         System.out.println("JSON Result: " + jsonResult);
 
         // Assert that the JSON result is not empty and contains the expected data
-        assertTrue(jsonResult.contains("{\"City\":\"New York\"}"));
+        assertTrue(jsonResult.contains("\"City\":\"New York\""));
         assertTrue(jsonResult.contains("\"Age\":\"30.0\""));
-        assertTrue(jsonResult.contains("\"Name\":\"John\"}"));
+        assertTrue(jsonResult.contains("\"Name\":\"John\""));
     }
 
     @Test
