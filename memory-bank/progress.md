@@ -13,6 +13,15 @@
 **What's left to build:**
 
 *   Implement unit tests for the remaining API controllers.
+*   Implement Công cụ chuyển đổi định dạng văn bản.
+*   Implement Công cụ mã hóa/giải mã Base64.
+*   Implement Công cụ tạo mật khẩu ngẫu nhiên.
+*   Implement Công cụ tính toán Hash.
+*   Implement Công cụ tạo QR Code.
+
+**Completed:**
+
+*   Implement Công cụ tạo UUID.
 
 
 **Current status:**

@@ -42,6 +42,11 @@ This project provides a set of online tools via RESTful APIs.
     *   Optional parameter: `&format=base64` to get the image as a Base64 string.
 *   `POST /api/excel/convert?file=<file>&format=<format>` (input: Excel file, output: converted data in specified format (json, xml, csv))
 
+### UUID Generator
+
+*   `/uuid/v4`: Generates a UUID version 4.
+*   `/uuid/v5?name=<name>`: Generates a UUID version 5 using SHA-1 hashing.
+
 ## High Availability
 
 *   The API is designed to be stateless, meaning that it does not store any session-specific data on the server. This allows the application to be easily scaled horizontally by adding more instances.
