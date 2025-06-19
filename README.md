@@ -26,6 +26,10 @@ This project provides a set of online tools via RESTful APIs.
 *   `POST /api/encode/url` (input: text, output: URL encoded string)
 *   `POST /api/decode/url` (input: URL encoded string, output: decoded text)
 
+### Encoding Tools
+
+*   `GET /api/encode?text=<text>` (input: text, output: encoded text)
+
 ### Formatting Tools
 
 *   `POST /api/format/json` (input: raw JSON string, output: pretty-printed JSON)
@@ -36,6 +40,7 @@ This project provides a set of online tools via RESTful APIs.
 *   `GET /api/generate/uuid` (output: new UUID)
 *   `GET /api/generate/qrcode?text=<text>` (output: image/png)
     *   Optional parameter: `&format=base64` to get the image as a Base64 string.
+*   `POST /api/excel/convert?file=<file>&format=<format>` (input: Excel file, output: converted data in specified format (json, xml, csv))
 
 ## High Availability
 

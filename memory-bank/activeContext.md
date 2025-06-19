@@ -10,11 +10,6 @@
 
 **Next steps:**
 
-*   Add Apache POI dependency to `pom.xml`.
-*   Create `ExcelConverterController`.
-*   Create `ExcelConverterService`.
-*   Create data classes: `ExcelData`, `XmlData`, `JsonData`, `CsvData`.
-*   Implement unit tests for `ExcelConverterService`.
 *   Update `README.md`.
 
 **Active decisions and considerations:**

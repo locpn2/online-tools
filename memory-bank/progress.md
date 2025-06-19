@@ -6,11 +6,11 @@
 *   Git repository initialized and pushed to remote.
 *   Cline memory-bank initialized.
 *   Unit tests implemented for HashController.
+*   Unit tests implemented for ExcelConverterService.
+*   Implement Excel to XML, JSON, CSV converter.
 
 **What's left to build:**
 
-*   Implement Excel to XML, JSON, CSV converter.
-*   Implement unit tests for the remaining API controllers.
 
 **Current status:**
 
